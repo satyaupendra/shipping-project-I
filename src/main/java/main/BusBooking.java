@@ -1,8 +1,10 @@
 package main;
 
+import static org.junit.Assert.assertEquals;
+
 public class BusBooking{
-//	Place from;
-//	Place to;
+	Place from;
+	Place to;
 	User u;
 	public Date boardingDate;
 	Bus b;
@@ -12,6 +14,9 @@ public class BusBooking{
 		//write your code here !!!
 	    // get the starting city-name and destination city-name
 		// the format for the ticket is  FromStartingcity | to | destination-city | boarding date
+		 Ticket = "From"+Place.getCityname();
+		Ticket = Ticket +" | "+"to"+" | "+Place.getCityname()+" | "+boardingDate.date; 
+		
 		
 		return Ticket;
 	}

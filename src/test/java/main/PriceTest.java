@@ -57,5 +57,6 @@ public class PriceTest {
 			tic = tic +" | "+"to"+" | "+p.getCityname()+" | "+b.boardingDate.date; 
 			assertEquals(tic,b.getTicket());
 		}
+
 		
 }

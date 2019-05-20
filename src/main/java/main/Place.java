@@ -1,7 +1,7 @@
 package main;
 
 public class Place{
-	String cityname;
+	static String cityname;
 	int zip;
 	String Statename;
 	String countryname;
@@ -11,7 +11,7 @@ public class Place{
 		setStatename(SN);
 		setCountryname(CoN);
 	}
-	public String getCityname() {
+	public static String getCityname() {
 		return cityname;
 	}
 	public void setCityname(String cityname) {
